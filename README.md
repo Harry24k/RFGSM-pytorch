@@ -10,7 +10,7 @@ You can add other pictures with a folder with the label name in the 'data/imagen
 ## Requirements
 * python==3.6   
 * numpy==1.14.2   
-* pytorch==1.0.0   
+* pytorch==1.0.1   
 
 ## Important results not in the code
 - This paper showed that adverarial training with single-step methods admits a degenerate global minimum. At least two substantially different global minima exists. (p.4)
