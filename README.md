@@ -14,13 +14,12 @@ You can add other pictures with a folder with the label name in the 'data/imagen
 
 ## Important results not in the code
 - This paper showed that adverarial training with single-step methods admits a degenerate global minimum. At least two substantially different global minima exists. (p.4)
-  - If there is no adversarial examples near the traning examples, then $h^*$ is robust to all $l_{\inf}$ bounded perturbations
+  - If there is no adversarial examples near the traning examples, then a hypothesis is robust to all infinity norm distance bounded perturbations.
   - If a model is the approximation method underlying the specific attack, then other attacks are possible.
 - It suggest to use **R+FGSM** (p.5-6)
   - The **[gradient masking](https://seclab.stanford.edu/AdvML2017/slides/17-09-aro-aml.pdf)** may results adversarial methods can't produce the best adversarial example.
   - This is caused by the highly curved loss in the vicinity of the data point.
   - Thus we need a random step in attack methods.
-  - $x^adv = x' + (\eps - \alpha)sign(\triangledown_{x'}J(x', y_{true}))$, where $x' = x + \alpha sign(N(0^d, I^d))$
 
 - Ensemble adversarial training is needed(p.7-8)
   - With pretrained models, we are able to generate variety adversarial examples. And we can use it for adversarial training a new model.
