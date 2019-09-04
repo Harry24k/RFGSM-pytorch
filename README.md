@@ -24,3 +24,7 @@ You can add other pictures with a folder with the label name in the 'data/imagen
 - Ensemble adversarial training is needed(p.7-8)
   - With pretrained models, we are able to generate variety adversarial examples. And we can use it for adversarial training a new model.
   - They use "**Pre-trained Models**(Inception v3, IncRes v2, ResNet v2)" to extract adversarial exampels and use it for adversarial training "**Trained model**(Inception v3, IncRes v2)". Finally, test with adversarial examples from "**Holdout Models**(Inception v4, ResNet v1, ResNet v2)"
+  
+## Notice
+- This Repository won't be updated.
+- Please check [the package of adversarial attacks in pytorch](https://github.com/Harry24k/adversairal-attacks-pytorch)
